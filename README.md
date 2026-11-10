@@ -1,4 +1,4 @@
-# EIS 열화 진단 — Zhang et al. (2020) Python 재현과 확장 분석
+# EIS Degradation Diagnosis — Zhang et al. (2020) Python Reproduction & Extension Analysis
 
 주논문: Y. Zhang et al., *Identifying degradation patterns of lithium ion batteries from impedance spectroscopy using machine learning*, Nat. Commun. 11, 1706 (2020).
 데이터: Zenodo 10.5281/zenodo.3633835 (state V EIS 12개, 용량 12개). 저자 MATLAB 코드: github.com/YunweiZhang/ML-identify-battery-degradation.
