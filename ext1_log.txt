@@ -1,0 +1,99 @@
+{
+ "25C05": {
+  "r2_cnn": 0.648,
+  "r2_gpr": 0.5533,
+  "rmse_cnn": 4.5966,
+  "rmse_gpr": 5.1782
+ },
+ "25C06": {
+  "r2_cnn": -0.7453,
+  "r2_gpr": 0.0027,
+  "rmse_cnn": 4.4882,
+  "rmse_gpr": 3.3927
+ },
+ "25C07": {
+  "r2_cnn": 0.478,
+  "r2_gpr": -1.1956,
+  "rmse_cnn": 3.4528,
+  "rmse_gpr": 7.0815
+ },
+ "25C08": {
+  "r2_cnn": -0.6155,
+  "r2_gpr": -0.4655,
+  "rmse_cnn": 2.0084,
+  "rmse_gpr": 1.9129
+ },
+ "35C02": {
+  "r2_cnn": 0.6214,
+  "r2_gpr": 0.3106,
+  "rmse_cnn": 1.7353,
+  "rmse_gpr": 2.3417
+ },
+ "45C02": {
+  "r2_cnn": 0.8592,
+  "r2_gpr": 0.1667,
+  "rmse_cnn": 1.0492,
+  "rmse_gpr": 2.5526
+ },
+ "salient_freqs_Hz": [
+  0.165,
+  0.13,
+  0.103
+ ],
+ "top10_saliency": [
+  {
+   "part": "Im",
+   "freq_Hz": 0.13,
+   "share": 0.0352
+  },
+  {
+   "part": "Im",
+   "freq_Hz": 0.165,
+   "share": 0.0347
+  },
+  {
+   "part": "Im",
+   "freq_Hz": 0.103,
+   "share": 0.0301
+  },
+  {
+   "part": "Im",
+   "freq_Hz": 0.208,
+   "share": 0.0261
+  },
+  {
+   "part": "Im",
+   "freq_Hz": 0.082,
+   "share": 0.0233
+  },
+  {
+   "part": "Im",
+   "freq_Hz": 0.064,
+   "share": 0.0197
+  },
+  {
+   "part": "Im",
+   "freq_Hz": 0.04,
+   "share": 0.0191
+  },
+  {
+   "part": "Im",
+   "freq_Hz": 0.032,
+   "share": 0.0186
+  },
+  {
+   "part": "Im",
+   "freq_Hz": 14.068,
+   "share": 0.0178
+  },
+  {
+   "part": "Im",
+   "freq_Hz": 0.051,
+   "share": 0.0172
+  }
+ ],
+ "corr_descriptor_vs_soh": {
+  "salient_band_-Im": -0.762,
+  "Re_20kHz": 0.207
+ }
+}

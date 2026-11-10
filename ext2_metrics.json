@@ -1,0 +1,87 @@
+{
+  "rmse_cycles": {
+    "25C05": {
+      "GPR-LIN (paper)": 11.7,
+      "CNN intra": 39.6,
+      "CNN inter": 9.0,
+      "Blend α=0.5": 19.9
+    },
+    "25C06": {
+      "GPR-LIN (paper)": 18.9,
+      "CNN intra": 16.0,
+      "CNN inter": 12.0,
+      "Blend α=0.5": 11.6
+    },
+    "25C07": {
+      "GPR-LIN (paper)": 25.0,
+      "CNN intra": 22.9,
+      "CNN inter": 14.9,
+      "Blend α=0.5": 10.0
+    },
+    "25C08": {
+      "GPR-LIN (paper)": 26.6,
+      "CNN intra": 45.2,
+      "CNN inter": 53.0,
+      "Blend α=0.5": 48.9
+    },
+    "35C02": {
+      "GPR-LIN (paper)": 25.2,
+      "CNN intra": 26.5,
+      "CNN inter": 17.1,
+      "Blend α=0.5": 20.3
+    },
+    "45C02": {
+      "GPR-LIN (paper)": 33.1,
+      "CNN intra": 54.4,
+      "CNN inter": 46.0,
+      "Blend α=0.5": 48.9
+    }
+  },
+  "r2": {
+    "25C05": {
+      "GPR-LIN (paper)": 0.93,
+      "CNN intra": 0.207,
+      "CNN inter": 0.959,
+      "Blend α=0.5": 0.799
+    },
+    "25C06": {
+      "GPR-LIN (paper)": 0.713,
+      "CNN intra": 0.794,
+      "CNN inter": 0.884,
+      "Blend α=0.5": 0.891
+    },
+    "25C07": {
+      "GPR-LIN (paper)": -5.514,
+      "CNN intra": -4.482,
+      "CNN inter": -1.321,
+      "Blend α=0.5": -0.031
+    },
+    "25C08": {
+      "GPR-LIN (paper)": -6.371,
+      "CNN intra": -20.257,
+      "CNN inter": -28.26,
+      "Blend α=0.5": -23.893
+    },
+    "35C02": {
+      "GPR-LIN (paper)": 0.891,
+      "CNN intra": 0.879,
+      "CNN inter": 0.95,
+      "Blend α=0.5": 0.929
+    },
+    "45C02": {
+      "GPR-LIN (paper)": 0.913,
+      "CNN intra": 0.767,
+      "CNN inter": 0.833,
+      "Blend α=0.5": 0.811
+    }
+  },
+  "mean_rmse": {
+    "GPR-LIN (paper)": 23.4,
+    "CNN intra": 34.1,
+    "CNN inter": 25.3,
+    "Blend α=0.5": 26.6
+  },
+  "n_references": 256,
+  "alpha": 0.5,
+  "train_rows": 526
+}

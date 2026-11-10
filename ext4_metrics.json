@@ -1,0 +1,103 @@
+{
+  "rmse_mAh": {
+    "GPR SE-iso (paper)": {
+      "25C05": 5.178,
+      "25C06": 3.393,
+      "25C07": 7.081,
+      "25C08": 1.913,
+      "35C02": 2.342,
+      "45C02": 2.553,
+      "mean": 3.743
+    },
+    "SVR (RBF)": {
+      "25C05": 8.734,
+      "25C06": 4.244,
+      "25C07": 7.693,
+      "25C08": 2.025,
+      "35C02": 1.521,
+      "45C02": 1.437,
+      "mean": 4.276
+    },
+    "Random forest": {
+      "25C05": 5.729,
+      "25C06": 2.009,
+      "25C07": 4.168,
+      "25C08": 1.214,
+      "35C02": 0.892,
+      "45C02": 1.236,
+      "mean": 2.541
+    },
+    "Gradient boosting": {
+      "25C05": 5.725,
+      "25C06": 1.895,
+      "25C07": 4.049,
+      "25C08": 1.144,
+      "35C02": 0.99,
+      "45C02": 1.344,
+      "mean": 2.525
+    },
+    "Elastic net": {
+      "25C05": 2.768,
+      "25C06": 2.505,
+      "25C07": 2.194,
+      "25C08": 1.536,
+      "35C02": 1.388,
+      "45C02": 0.985,
+      "mean": 1.896
+    },
+    "k-NN (k=10)": {
+      "25C05": 7.656,
+      "25C06": 3.092,
+      "25C07": 5.619,
+      "25C08": 2.902,
+      "35C02": 3.688,
+      "45C02": 1.26,
+      "mean": 4.036
+    },
+    "MLP (2×64)": {
+      "25C05": 3.695,
+      "25C06": 5.398,
+      "25C07": 3.204,
+      "25C08": 1.817,
+      "35C02": 1.676,
+      "45C02": 0.663,
+      "mean": 2.742
+    },
+    "1D CNN ×5 (ext1)": {
+      "25C05": 4.597,
+      "25C06": 4.488,
+      "25C07": 3.453,
+      "25C08": 2.008,
+      "35C02": 1.735,
+      "45C02": 1.049,
+      "mean": 2.888
+    }
+  },
+  "relevance_share_by_band": {
+    "Permutation, GPR (test cells)": {
+      "< 1 Hz (diffusion tail)": 0.624,
+      "1–100 Hz (charge transfer / SEI)": 0.216,
+      "> 100 Hz (ohmic, contacts)": 0.161
+    },
+    "Random-forest impurity": {
+      "< 1 Hz (diffusion tail)": 0.75,
+      "1–100 Hz (charge transfer / SEI)": 0.184,
+      "> 100 Hz (ohmic, contacts)": 0.066
+    },
+    "Elastic-net |coef|": {
+      "< 1 Hz (diffusion tail)": 0.217,
+      "1–100 Hz (charge transfer / SEI)": 0.544,
+      "> 100 Hz (ohmic, contacts)": 0.238
+    },
+    "CNN saliency (ext1)": {
+      "< 1 Hz (diffusion tail)": 0.364,
+      "1–100 Hz (charge transfer / SEI)": 0.309,
+      "> 100 Hz (ohmic, contacts)": 0.327
+    },
+    "ARD weight (paper method)": {
+      "< 1 Hz (diffusion tail)": 0.481,
+      "1–100 Hz (charge transfer / SEI)": 0.489,
+      "> 100 Hz (ohmic, contacts)": 0.029
+    }
+  }
+}
